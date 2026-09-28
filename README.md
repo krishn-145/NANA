@@ -11,7 +11,9 @@
   Simple • Fast • Lightweight • Developer Friendly
 </p><p align="center">
   <a href="https://openrouter.ai">OpenRouter</a> •
-  <a href="https://openrouter.ai/keys">API Keys</a> •
+  <a href="https://openrouter.ai/keys">API Keys</a> • <a
+  href="https://t.me/BotFather">BotFather</a> •
+
   <a href="https://github.com/krishn-145">GitHub</a>
 </p>---
 
