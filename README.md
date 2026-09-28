@@ -1,5 +1,9 @@
 ⚡ NANA
 ---
+<img width="1254" height="1254" alt="162415" src="https://github.com/user-attachments/assets/df1a1e86-3dbf-406f-b3a4-bee8e8f28192" />
+
+## FLOOW IN INSTAGRAM @ur_.krishn._02
+---
 
 <p align="center">
   <b>🚀 OpenRouter API Toolkit for Termux on Android</b><br>
@@ -70,9 +74,9 @@ Copy your API key.
 🔑 Configure API Key
 
 Set your key for the current Termux session:
-
+```
 export OPENROUTER_API_KEY="sk-or-v1-YOUR_API_KEY"
-
+```
 Replace:
 
 YOUR_API_KEY
@@ -84,23 +88,23 @@ with your real OpenRouter API key.
 💾 Permanent Configuration
 
 To keep the API key available after restarting Termux:
-
+```
 echo 'export OPENROUTER_API_KEY="sk-or-v1-YOUR_API_KEY"' >> ~/.bashrc
-
+```
 Reload the shell:
-
+```
 source ~/.bashrc
-
+```
 Check:
-
+```
 echo "$OPENROUTER_API_KEY"
-
+```
 ---
 
 🧪 Test OpenRouter API
 
 Run:
-
+```
 curl https://openrouter.ai/api/v1/chat/completions \
   -H "Authorization: Bearer $OPENROUTER_API_KEY" \
   -H "Content-Type: application/json" \
@@ -113,7 +117,7 @@ curl https://openrouter.ai/api/v1/chat/completions \
       }
     ]
   }'
-
+```
 If everything is configured correctly, OpenRouter will return a JSON response.
 
 ---
@@ -137,8 +141,13 @@ You can configure Termux with:
 pkg update -y && \
 pkg install curl -y && \
 read -p "Enter OpenRouter API Key: " OPENROUTER_API_KEY && \
+```
 echo "export OPENROUTER_API_KEY=\"$OPENROUTER_API_KEY\"" >> ~/.bashrc && \
-export OPENROUTER_API_KEY="$OPENROUTER_API_KEY" && \
+```
+```
+export OPENROUTER_API_KEY="$OPENROUTER_API_KEY"
+```
+&& \
 echo "✅ OpenRouter API configured successfully!"
 
 Test immediately:
@@ -283,9 +292,9 @@ Resource| Link
 "OPENROUTER_API_KEY is not set"
 
 Run:
-
+```
 export OPENROUTER_API_KEY="YOUR_API_KEY"
-
+```
 Then:
 
 echo "$OPENROUTER_API_KEY"
