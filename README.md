@@ -15,6 +15,14 @@
   <a href="https://github.com/krishn-145">GitHub</a>
 </p>---
 
+## Install NANA
+```
+git clone https://github.com/krishn-145/NANA.git
+cd NANA
+bash setup.sh
+chmod +x chat
+./chat
+```
 📌 Repository Summary
 
 OpenRouter API toolkit for Termux on Android — simple CLI setup, free-model support, secure environment-variable configuration, and easy API testing with "curl".
@@ -168,17 +176,6 @@ curl https://openrouter.ai/api/v1/chat/completions \
 
 ---
 
-💬 Simple Chat Script
-
-Create a file:
-```
-https://github.com/krishn-145/NANA.git
-cd NANA
-bash setup.sh
-chmod +x chat
-./chat
-```
-
 Paste:
 
 #!/data/data/com.termux/files/usr/bin/bash
@@ -225,9 +222,9 @@ Do not put this in public source code:
 OPENROUTER_API_KEY="sk-or-v1-YOUR_REAL_KEY"
 
 ✅ Use an environment variable
-
+```
 export OPENROUTER_API_KEY="YOUR_API_KEY"
-
+```
 ❌ Never commit your API key
 
 Before pushing to GitHub, check your files:
