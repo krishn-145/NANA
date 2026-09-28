@@ -172,7 +172,7 @@ curl https://openrouter.ai/api/v1/chat/completions \
 
 Create a file:
 ```
-git clone https://github.com/krishn-145/nana.git
+https://github.com/krishn-145/NANA.git
 cd NANA
 bash setup.sh
 chmod +x chat
