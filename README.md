@@ -2,7 +2,8 @@
 ---
 <img width="1254" height="1254" alt="162415" src="https://github.com/user-attachments/assets/df1a1e86-3dbf-406f-b3a4-bee8e8f28192" />
 
-## FLOOW IN INSTAGRAM @ur_.krishn._02
+>FLOOW IN INSTAGRAM
+@ur_.krishn._02
 ---
 
 <p align="center">
