@@ -175,8 +175,8 @@ Create a file:
 git clone https://github.com/krishn-145/nana.git
 cd NANA
 bash setup.sh
-chmod +x chat.sh
-./chat.sh
+chmod +x chat
+./chat
 ```
 
 Paste:
@@ -208,11 +208,11 @@ curl -s https://openrouter.ai/api/v1/chat/completions \
 
 Save the file and make it executable:
 
-chmod +x chat.sh
+chmod +x chat
 
 Run:
 
-./chat.sh
+./chat
 
 ---
 
@@ -245,7 +245,7 @@ If an API key has already been exposed publicly, revoke it through OpenRouter an
 openrouter-termux/
 ├── README.md
 ├── setup.sh
-├── chat.sh
+├── chat
 ├── .gitignore
 └── LICENSE
 
